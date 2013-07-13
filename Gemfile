@@ -6,6 +6,10 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+gem 'devise', '3.0.0.rc'
+gem 'protected_attributes'
+gem 'twilio-ruby'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

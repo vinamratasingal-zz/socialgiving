@@ -1,0 +1,59 @@
+body{
+	background-image: url('cork.jpeg');
+	margin: 0;
+	font-family: Courier;
+}
+
+#submit {
+	position: relative;
+	left: 1050px;
+	top: 60px;
+}
+
+#topnav{
+	width: 1280px;
+	height: 150px;
+	background-color: rgba(211,211,211,0.6);
+	
+}
+
+#name{
+	font-size: 60px;
+	padding: 40px 40px 20px 30px;
+}
+
+.info{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 50px;
+	width: 200px;
+	height: 30px;
+}
+
+.signup{
+	font-size: 50px;
+	padding-left: 550px;
+	padding-top: 20px;
+}
+
+.signinfo{
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 250px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.btn btn-block btn-primary{
+background: #FFCF0B;
+background: -moz-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);
+background: -o-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff5bd), color-stop(5%, #fff5bd), color-stop(5%, #ffe976), color-stop(100%, #ffcf0b));
+background: linear-gradient(top, #fff5bd 0%,#fff5bd 1px,#ffe976 1px,#ffcf0b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE976', endColorstr='#FFCF0B',GradientType=0 );
+border-color: #e8b463;
+color: #333 !important;
+font-weight: bold;
+}
+
