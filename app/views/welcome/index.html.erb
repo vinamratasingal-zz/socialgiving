@@ -23,13 +23,12 @@
 						<%= f.password_field :password, :placeholder => "password", :class => "topnav"%>
                      </td>
 					<div id="submit">
-						<%= f.submit "Sign in", :class=> "topnav"%>
+						<%= f.submit "Sign in", :class=> "btn btn-primary"%>
 					</div>
 					<% end %>
                  </tr>
              </table>
          </div>
-		<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
          <p class="signup">Sign Up Today</p>
          <table class="signup">
              <tr>

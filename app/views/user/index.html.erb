@@ -45,7 +45,14 @@
                 </a>
             </li>
         </ul>
-       
+
+		<h2> Add To My Wishlist </h2> 
+			<p> Pick a category to add to your wishlist! </p>
+				<%= form_for(current_user, :url => add_category_path(:category_id), :method=> :post) do |f| %>
+				<%= f.collection_select :category_id, Category.all, :id, :name, {:include_blank => true} %>
+				<%= f.submit%>
+				<% end %>
+       			
         </div>
     </body>
 </html>

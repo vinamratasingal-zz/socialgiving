@@ -3,7 +3,13 @@ Socialgiving::Application.routes.draw do
   get "user/index"
   get "welcome/index"
   devise_for :users
-  resources :users, :items
+  resources :users
+  resources :category do 
+    member do 
+      post :add
+    end
+  end
+  resources :items
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
